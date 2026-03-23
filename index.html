@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Изготовление тентов ПВХ в Воронеже</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+   <div class="site-wrapper">
+  <header>
+    <div class="logo">
+  <!-- Иконка тента/крыши + текст -->
+  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+  </svg>
+  <span>ТЕНТ<span>36</span></span>
+  <a onclick="toggleModal(true)" class="header-calc-btn">Рассчитать стоимость</a>
+</div>
+<!-- Ссылка Авито -->
+<a href="https://www.avito.ru" target="_blank" class="avito-btn">Наш Avito</a>
+  <!-- Карты -->
+<div class="header-map">
+  <div class="map-thumb">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="#ffcc00"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+  </div>
+  <!-- Ссылка на точку из Яндекс Карт -->
+  <a href="https://yandex.ru/maps/193/voronezh/house/spokoyny_pereulok_24a/Z0AYdAdlS0ACQFtrfXp5dnVjbA==/?ll=39.205723%2C51.687514&z=19" target="_blank" class="map-btn">Спокойный пер.24A</a>
+</div>
+
+ <!-- Режим работы -->
+   <div class="header-info-block">
+  <span>🕒</span>
+  <div class="info-text">
+    <span class="label">Режим работы</span>
+    <span class="value">Пн-Вс: 9:00 - 20:00</span>
+  </div>
+</div>
+  </header>
+
+ <button class="nav-btn prev" onclick="const c = document.querySelector('.main-container'); c.scrollLeft <= 0 ? c.scrollTo({left: c.scrollWidth, behavior: 'smooth'}) : c.scrollBy({left: -c.offsetWidth, behavior: 'smooth'})">❮</button>
+
+<button class="nav-btn next" onclick="const c = document.querySelector('.main-container'); (c.scrollLeft + c.offsetWidth) >= c.scrollWidth ? c.scrollTo({left: 0, behavior: 'smooth'}) : c.scrollBy({left: c.offsetWidth, behavior: 'smooth'})">❯</button>
+
+
+  <main class="main-container">
+    <section class="slide" id="about">
+  <h1>Изготовление тентов ПВХ</h1>
+  <p class="subtitle">Собственное производство в Воронеже</p>
+  
+  <div class="features">
+    <div class="item">
+     <!--<span>📞</span>-->
+      <h2>Связаться с нами</h2>
+      <a href="tel:+79192314812" class="phone-number">+7 (919) 231-48-12</a>
+      <a href="tel:+79204247429" class="phone-number">+7 (920) 424-74-29</a>
+      <p>Ежедневно с 9:00 до 20:00</p>
+    </div>
+    <div class="item">
+      <span>🏭</span>
+      <h2>Спектр услуг</h2>
+      <p>Тенты до xxx м²</p>
+    </div>
+     <div class="item">
+      <span>🇰🇷</span>
+      <h2>Материалы</h2>
+      <p>Используем проверенный ПВХ из Кореи и Китая</p>
+    </div>
+     <div class="item">
+      <span>🚛</span>
+      <h2>Доставка</h2>
+      <p>По всей России с индивидуальным подходом</p>
+    </div>
+    <div class="item">
+      <span>⏱</span>
+      <h2>Сроки изготовлния</h2>
+      <p>От 1 до 3 дней</p>
+    </div>
+    <div class="item">
+      <span>🛡</span>
+      <h2>Гарантия</h2>
+      <p>12 месяцев на швы</p>
+    </div>
+  </div>
+</section>
+    
+    <section class="slide" id="works">
+      <h1>Примеры наших работ</h1>
+      <p class="subtitle">От мастеров своего дела</p>
+      <div class="gallery">
+  <div class="card">
+    <div class="img-box">
+      <img src="tent_na_tonar.webp" alt="Тент_ПВХ_для_тонара">
+    </div>
+    <p>Тент на прицеп</p>
+  </div>
+  <div class="card">
+    <div class="img-box">
+      <img src="shtore_PVX.jpeg" alt="Шторы ПВХ">
+    </div>
+    <p>Шторы ПВХ</p>
+  </div>
+  <div class="card">
+    <div class="img-box">ФОТО 3</div>
+    <p>Укрытие для стройки</p>
+  </div>
+         <div class="card">
+    <div class="img-box">ФОТО 4</div>
+    <p>Навес</p>
+  </div>
+         <div class="card">
+    <div class="img-box">ФОТО 5</div>
+    <p>Для теплицы</p>
+  </div>
+         <div class="card">
+    <div class="img-box">
+       <img src="swimming_pool.webp" alt="Тент для бассейна ПВХ">
+    </div>
+    <p>Бассейн</p>
+  </div>
+</div>
+   </section>
+
+  </main>
+
+ <footer>
+  <span>© 2026 ТЕНТ36 — Производство ПВХ тентов</span>
+  <div class="footer-right">
+    <a href="https://yandex.ru/maps/193/voronezh/house/spokoyny_pereulok_24g/Z0AYdAdkQUEFQFtrfXp5dnhrbQ==/?ll=39.205723%2C51.687514&z=19.28" target="_blank">Спокойный пер.24А</a>
+    <a href="https://avito.ru" target="_blank">Наш Avito</a>
+  </div>
+</footer>
+</div>
+<script>
+  function toggleModal(show) {
+    const modal = document.getElementById('modal-overlay');
+    modal.style.display = show ? 'flex' : 'none';
+}
+
+// Кнопка на расчет должна иметь onclick="toggleModal(true)" чтобы открывать скрипт
+// <a href="javascript:void(0)" onclick="toggleModal(true)" class="header
+// --- НАСТРОЙКИ (легко менять цены здесь) ---
+const PRICES = {
+    '650': 850,  // Цена за м2 для ПВХ 650
+    '900': 1200  // Цена за м2 для ПВХ 900
+};
+
+const MIN_ORDER = 3000; // Минимальная сумма заказа
+const OVERLAP = 0.5;    // Подгиб (добавляем по 0.5м к каждой стороне)
+// ------------------------------------------
+
+function calculate() {
+    // 1. Берем данные из полей
+    const rawL = parseFloat(document.getElementById('length').value) || 0;
+    const rawW = parseFloat(document.getElementById('width').value) || 0;
+    const materialKey = document.getElementById('material').value;
+    
+    const resElement = document.querySelector('#result span');
+
+    if (rawL > 0 && rawW > 0) {
+        // 2. Логика с подгибами (L + 0.5) * (W + 0.5)
+        const finalL = rawL + OVERLAP;
+        const finalW = rawW + OVERLAP;
+        const area = finalL * finalW;
+        
+        // 3. Считаем итого
+        let total = area * PRICES[materialKey];
+        
+        // 4. Проверка на минималку (раскомментируй нижние 3 строки, если нужно включить)
+        /* if (total < MIN_ORDER) {
+            total = MIN_ORDER;
+        } */
+
+        // 5. Вывод результата с красивым разделением разрядов
+        resElement.innerText = Math.round(total).toLocaleString('ru-RU');
+        
+    } else {
+        alert('Введите корректные габариты тента');
+    }
+}
+
+//Открываем фото во весь экран
+// Ждем, пока весь HTML загрузится
+document.addEventListener('DOMContentLoaded', () => {
+    const lightbox = document.getElementById('lightbox');
+    const lbImg = lightbox.querySelector('img');
+
+    // Ищем все картинки именно в блоке "Работы"
+    document.querySelectorAll('.img-box img').forEach(img => {
+        img.addEventListener('click', (e) => {
+            e.stopPropagation();         // Чтобы клик не "улетел" в слайдер
+            lbImg.src = img.src;         // Берем адрес картинки, на которую нажали
+            lightbox.classList.add('active'); // Показываем черное окно
+            document.body.style.overflow = 'hidden'; // Отключаем скролл сайта
+        });
+    });
+
+    // Закрываем при клике в ЛЮБОЕ место (включая саму картинку)
+    lightbox.addEventListener('click', () => {
+        lightbox.classList.remove('active'); // Прячем окно
+        setTimeout(() => {
+            lbImg.src = '';              // Чистим адрес фото после закрытия
+            document.body.style.overflow = ''; // Возвращаем скролл сайту
+        }, 300); // Ждем окончания анимации (0.3с)
+    });
+});
+</script>
+<div id="modal-overlay" onclick="toggleModal(false)">
+  <div class="modal-content" onclick="event.stopPropagation()">
+    <span class="close-modal" onclick="toggleModal(false)">&times;</span>
+    <!-- Сюда вставь свой старый блок .calc-box -->
+    <div class="calc-box">
+       <h2>Предварительный расчет стоимости</h2>
+       <div class="inputs">
+          <input type="number" id="length" placeholder="Длина, м">
+          <input type="number" id="width" placeholder="Ширина, м">
+          <select id="material">
+            <option value="650">ПВХ 650 г/м²</option>
+            <option value="900">ПВХ 900 г/м²</option>
+          </select>
+          <button onclick="calculate()">Посчитать</button>
+       </div>
+       <div id="result">Итого: <span>0</span> ₽</div>
+    </div>
+  </div>
+</div>
+
+<!--Открытие фото во весь экран в галерее-->
+<div id="lightbox" class="lightbox">
+  <img src="" alt="Увеличенное фото">
+</div>
+</body>
